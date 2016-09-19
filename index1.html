@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="jsjs.js"></script>
+<style type="text/css">
+*{margin:0px;padding:0px;}
+.main {
+	float:left;
+	height: 260px;
+	width: 260px;
+	position:relative;
+	top:80px;
+	left:360px;
+	overflow:hidden;
+}
+.main #mul {
+	float: left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height: auto;
+	width: 200px;
+}
+
+#mul li {
+	float: left;
+	width: 200px;
+	text-align:center;
+	list-style-type:none;
+}
+li:nth-child(1),li:nth-child(9){height:22px; line-height:22px; font-size:0.35em;color:rgba(0,0,0,0.2);}
+li:nth-child(2),li:nth-child(8){height:24px; line-height:24px; font-size:0.5em;color:rgba(0,0,0,0.4);}
+li:nth-child(3),li:nth-child(7){height:26px; line-height:26px; font-size:0.65em;color:rgba(0,0,0,0.6);}
+li:nth-child(4),li:nth-child(6){height:28px; line-height:28px; font-size:0.8em;color:rgba(0,0,0,0.8);}
+li:nth-child(5){height:30px; line-height:30px; font-size:1.0em;color:rgba(0,0,0,1.0);}
+
+#click{position:absolute;left:220px;top:140px;width:40px;text-align:center;height:30px;line-height:30px; cursor:pointer;}
+</style>
+</head>
+
+<body>
+<div class="main">
+	<ul id="mul">
+    	<li>1和尚</li>
+    	<li>2尼姑</li>
+    	<li>3学生</li>
+    	<li>4老师</li>
+    	<li>5刘德华</li>
+    	<li>6司机</li>
+    	<li>7程晨</li>
+    	<li>8张杰</li>
+    	<li>9傻瓜</li>
+    </ul>
+    <div id="click">开始</div>
+</div>
+</body>
+</html>
